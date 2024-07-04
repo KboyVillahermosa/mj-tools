@@ -28,16 +28,7 @@
             <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
           </li>
           <li>
-            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-          </li>
-          <li>
-            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
-          </li>
-          <li>
-            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
-          </li>
-          <li>
-            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+            <a href="#youcan" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">You can do it</a>
           </li>
         </ul>
       </div>
@@ -58,6 +49,24 @@
         </div>
     </div>
   </section>  
+  <section id="youcan">
+    <div class="you-can-do-it">
+      <div class="header-image">
+        <div id="you"></div>
+    </div>
+      <div class="you-can-do-it-content">
+        <h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">You Can <span class="text-blue-600 dark:text-blue-500"> Do</span> It</h1>
+        <p class="text-gray-700"> Above all, remember that you can accomplish everything you set your mind to. Whether you discover a tough issue in your code or are intimidated by a new notion, remember that these hurdles are stepping stones to achievement. Embrace the process, remain curious, and believe in your capacity to overcome any obstacles that arise.</p>
+      </div>
+    </div>
+
+    <div class="message">
+      <div class="message-content">
+        <p class="text-gray-700 font-semibold"> I totally believe in you, Mj Vinculado. Your devotion, curiosity, and determination motivate me every day. This website is my way of encouraging you to pursue your aspirations in frontend development. You have the creativity, intelligence, and resilience to excel in this industry; never doubt it. Keep learning and growing, and know that I'm here to support you every step of the way.</p>
+      </div>
+    </div>
+
+  </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
@@ -69,6 +78,14 @@
         loop: true,
         autoplay: true,
         path: "./image/image.json", 
+      });
+
+      var animation = bodymovin.loadAnimation({
+        container: document.getElementById("you"), 
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        path: "./image/you.json", 
       });
     </script>
 </body>

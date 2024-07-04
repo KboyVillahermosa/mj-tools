@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .header{
@@ -35,4 +36,25 @@
     width: 100%;
     max-width: 600px;
     margin-top: 50px;
+}
+
+.you-can-do-it{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    padding: 20px;
+}
+.you-can-do-it-content{
+    width: 100%;
+    max-width: 800px;
+}
+.message{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    padding: 20px;
 }
