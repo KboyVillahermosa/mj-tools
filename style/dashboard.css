@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.dashboard-header{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.dashboard-content{
+    width: 100%;
+    padding: 20px;
+}
+
+.useful-tools-header{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.image-title{
+    justify-content: start;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+.image-title h1{
+    font-size: clamp(1.25rem, 0.4688rem + 2.5vw, 1.875rem);
+}
