@@ -43,9 +43,15 @@
     flex-direction: row;
     display: flex;
     align-items: center;
-    height: 60vh;
-    flex-wrap: wrap;
-    padding: 20px;
+   margin-top: 60px;
+   padding: 10px;
+}
+@media screen and (max-width: 950px){
+    .you-can-do-it{
+        flex-wrap: wrap;
+        margin-top: 10px;
+
+    }
 }
 .you-can-do-it-content{
     width: 100%;
